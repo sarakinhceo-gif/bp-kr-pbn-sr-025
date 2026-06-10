@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>종로 펍 블로그 | 개쩌는 펍의 조건</title>
+    <meta name="description" content="종로에서 가장 개쩌는 펍을 찾는 놈들을 위한 가이드. 쪽팔린 관광객용 바는 집에나 처 박아라. 여긴 진짜다. 전화문의: 010-6279-0862">
+    <meta name="keywords" content="종로 펍, 종로 술집, 종로 펍 가이드, 종로 핫플, 종로 가성비 펍, 종로 혼술, 종로 데이트, 종로 펍 추천">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://kr-pbn-sr-025.vercel.app/">
+    <meta property="og:title" content="종로 펍 가이드 | 진짜 술집을 찾는다면?">
+    <meta property="og:description" content="종로에서 가장 개쩌는 펍을 찾는 놈들을 위한 가이드. 쪽팔린 관광객용 바는 집에나 처 박아라. 여긴 진짜다.">
+    <style>
+        /* RESET + BASE */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 18px;
+            line-height: 1.5;
+            background: #f4e8c1;
+            color: #1a1a1a;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            padding: 2rem 1rem;
+        }
+        a {
+            color: #1a1a1a;
+            text-decoration: underline wavy #d4af37 2px;
+        }
+        a:hover {
+            background: #d4af37;
+            color: #000;
+            text-decoration: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: -0.04em;
+            line-height: 1.1;
+        }
+        h1 {
+            font-size: 3.2rem;
+            border-left: 0.6rem solid #d4af37;
+            padding-left: 1rem;
+            margin: 2rem 0 1.5rem;
+        }
+        h2 {
+            font-size: 2.2rem;
+            margin: 2.5rem 0 1rem;
+            background: #000;
+            color: #f4e8c1;
+            display: inline-block;
+            padding: 0.2rem 1rem 0.1rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+            margin: 1.8rem 0 0.8rem;
+            border-bottom: 4px double #d4af37;
+            padding-bottom: 0.3rem;
+        }
+        p, li, blockquote {
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        .highlight {
+            background: #d4af37;
+            color: #000;
+            padding: 0.1rem 0.4rem;
+            font-weight: bold;
+        }
+        .strike {
+            text-decoration: line-through 3px #d4af37;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background: #e6d9b8;
+            padding: 2rem 2.5rem;
+            border: 6px solid #1a1a1a;
+            box-shadow: 12px 12px 0 #000;
+        }
+        .full-bleed {
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            background: #1a1a1a;
+            color: #f4e8c1;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        /* NAV */
+        .nav-present {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background: #000;
+            color: #f4e8c1;
+            padding: 0.8rem 1.5rem;
+            margin-bottom: 2.5rem;
+            border: 2px solid #d4af37;
+        }
+        .nav-present a {
+            color: #f4e8c1;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 0 0.6rem;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-present a:hover {
+            border-bottom: 2px solid #d4af37;
+            background: transparent;
+            color: #d4af37;
+        }
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            font-size: 2rem;
+            line-height: 1;
+            color: #d4af37;
+        }
+        .tel-link {
+            font-weight: bold;
+            background: #d4af37;
+            color: #000;
+            padding: 0.2rem 1rem;
+            border-radius: 0;
+            text-decoration: none;
+            border: 2px solid #000;
+        }
+        .tel-link:hover {
+            background: #000;
+            color: #d4af37;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.2rem;
+            }
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.8rem; }
+            .nav-present {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.5rem;
+            }
+            .nav-present a {
+                display: block;
+                margin: 0.2rem 0;
+                padding: 0.3rem;
+                border-bottom: 1px solid #444;
+            }
+            .hamburger-menu {
+                display: block;
+                text-align: right;
+            }
+            .responsive-768 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- 네비게이션 -->
+    <nav class="nav-present">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <span style="font-weight:800; font-size:1.5rem; letter-spacing:-2px;">🍺 종로펍</span>
+            <span class="hamburger-menu">☰</span>
+        </div>
+        <div class="responsive-768" style="display: flex; flex-wrap: wrap; align-items: center;">
+            <a href="#">홈</a>
+            <a href="#">펍 지도</a>
+            <a href="#">블로그</a>
+            <a href="#">리뷰</a>
+            <a href="#">이벤트</a>
+            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+        </div>
+    </nav>
+
+    <!-- 블로그 헤더 -->
+    <h1>📢 블로그 — 개쩌는 펍의 조건</h1>
+    <p><span class="highlight">진짜 술꾼</span>을 위한 종로 펍 가이드. 쪽팔린 인스타 바는 집에나 처 박아라. 여기는 <strong>맥주, 위스키, 그리고 주먹</strong>이 오가는 곳이다.</p>
+
+    <!-- 메인 블로그 콘텐츠 (정보성 글 1편) -->
+    <article>
+        <h2>🍺 종로에서 '개쩌는 펍' 찾는 법</h2>
+        <p>종로는 관광객 함정이 넘친다. 외국인만 앉아 있는 생맥주집, 배지 사진 찍는 카페형 바 — <span class="strike">그런 곳은 펍이 아니다</span>. 진짜 펍은 바닥이 끈적이고, 주인이 손님 눈빛을 읽는다. 여기 종로에서 가장 개쩌는 펍을 고르는 3가지 조건을 때려박겠다.</p>
+
+        <h3>1. 간판이 화려하면 쳐다보지도 마라</h3>
+        <p>네온사인 번쩍이는 곳은 <strong>관광객용</strong>이다. 진짜 펍은 간판이 지저분하거나 아예 없다. 종로 골목, 2층, 지하 — 찾기 어려울수록 맥주가 시원하다. 예를 들어 <span class="highlight">'을지로3가 쪽 창고형 펍'</span>은 간판도 없지만 금요일 밤이면 현지인으로 터져 나간다.</p>
+        <p>팁: 문 앞에 'HAPPY HOUR' 플래카드가 있으면 돌아서 나와라. 거긴 파티가 아니라 <em>노동</em>이다.</p>
+
+        <h3>2. 사장이 무뚝뚝할수록 맛있다</h3>
+        <p>친절한 서비스? 펍에서 그런 거 바라면 스타벅스 가라. 종로에서 10년 넘은 펍 사장들은 인사도 안 한다. 하지만 네가 <strong>진짜 술을 아는 놈</strong>이면 바텐더가 말을 건다. "너 거기서 뭐 마실래?" 이 말이 곧 <span class="highlight">환영</span>이다. 전화 문의: <a href="tel:010-6279-0862">010-6279-0862</a> — 사장님 직통이다. (문자만 받을 때도 있음)</p>
+
+        <h3>3. 메뉴판이 2장 이하면 믿어라</h3>
+        <p>메뉴 50가지? 그건 <span class="strike">술집이 아니라 식당</span>이다. 개쩌는 종로 펍은 맥주 5종, 소주, 그리고 위스키 한두 종류면 끝이다. 오히려 선택지가 적은 곳이 재고가 돌고 맛이 산다. 대표적인 예: <strong>종로5가 '뚝배기 펍'</strong> — 메뉴는 흑맥주, 생맥주, 그리고 '사장님 맘대로 안주'뿐. 근데 그 안주가 미친다.</p>
+
+        <blockquote>
+            “진짜 펍은 네가 무슨 술을 좋아하는지 묻지 않는다. 그냥 술을 주고 인정한다.” — 종로펍 20년차 단골 형님
+        </blockquote>
+
+        <h3>🔥 보너스: 종로 펍 원칙</h3>
+        <p>아래 항목 중 <span class="highlight">2개 이상</span> 해당되면 그 펍은 걸러라. 집에서 혼자 먹는 게 낫다.</p>
+        <ul style="margin-left: 2rem; list-style-type: square;">
+            <li>✔️ 직원이 '어서 오세요~'를 3번 이상 말함</li>
+            <li>✔️ 벽에 와인잔 그림 or 감성 조명</li>
+            <li>✔️ 화장실이 '인스타 감성'</li>
+            <li>✔️ 테이블에 태블릿 메뉴판</li>
+            <li>✔️ 술이 나오는 데 10분 이상 걸림</li>
+        </ul>
+        <p>반대로 <strong>개쩌는 펍</strong>의 징조: 입구에 담배꽁초 더미, 바텐더가 손님과 싸우는 중, 맥주가 새는 소리, 그리고 <span class="highlight">웃음</span>이 아닌 <span class="highlight">고함</span>이 들린다. 그게 정상이다.</p>
+
+        <h2>📞 전화 한 통이면 끝</h2>
+        <p>종로 펍 정보는 구글에 쳐봐야 광고만 나온다. 그냥 전화해라. <a href="tel:010-6279-0862" style="font-size:1.4rem; background:#000; color:#d4af37; padding:0.1rem 0.6rem;">010-6279-0862</a> — 사장님이 직접 받는다. "야 어디야?" 이 말 한마디면 모든 게 해결된다. 쪽팔린 거 없음. <strong>진짜는 전화한다.</strong></p>
+
+        <div class="full-bleed" style="margin-top: 2.5rem; background: #2a2a2a; border-top: 6px solid #d4af37;">
+            <p style="font-size: 1.6rem; font-weight:900;">🍺 종로에서 가장 개쩌는 펍은 아직 발견되지 않았다. 네가 찾아서 전화해라.</p>
+            <p style="font-size: 1.2rem;">010-6279-0862</p>
+        </div>
+    </article>
+
+    <!-- 블로그 하단 / 추가 정보 -->
+    <div style="margin-top: 3rem; border-top: 6px double #1a1a1a; padding-top: 1.5rem;">
+        <p><span class="highlight">#종로펍 #진짜술집 #개쩌는펍 #쪽팔린관광객바 #종로핫플</span> — 이 태그는 알고리즘을 위한 거지만, 우리는 이미 알고 있다. 구글 평점 4.9는 가짜다. 바닥이 끈적이는 3.5점을 찾아라.</p>
+        <p style="font-size: 0.9rem; opacity: 0.8;">* 이 블로그는 종로 펍에 대한 진실만을 다룹니다. 일부 내용은 과장되었을 수 있지만, 전화번호는 진짜입니다. 010-6279-0862</p>
+    </div>
+
+</div>
+
+<!-- 모바일 햄버거 스크립트 (미니멀) -->
+<script>
+    (function() {
+        const hamburger = document.querySelector('.hamburger-menu');
+        const nav = document.querySelector('.responsive-768');
+        if (hamburger && nav) {
+            hamburger.addEventListener('click', function() {
+                if (nav.style.display === 'flex') {
+                    nav.style.display = 'none';
+                } else {
+                    nav.style.display = 'flex';
+                    nav.style.flexDirection = 'column';
+                }
+            });
+            // 창 크기 변경 시 복원
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    nav.style.display = 'flex';
+                    nav.style.flexDirection = 'row';
+                } else {
+                    // 모바일에서 기본 접힘 상태
+                    nav.style.display = 'none';
+                }
+            });
+            // 초기 모바일 상태는 접힘
+            if (window.innerWidth <= 768) {
+                nav.style.display = 'none';
+            }
+        }
+    })();
+</script>
+
+</body>
+</html>
