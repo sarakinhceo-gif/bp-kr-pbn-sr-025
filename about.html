@@ -250,111 +250,62 @@
     </style>
 </head>
 <body>
-    <nav>
-        <div style="font-size: 1.8rem; font-weight: bold; color: #f5e72b;">🍺 종로펍</div>
-        <button class="hamburger-menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
-        <div class="nav-links">
-            <a href="/">홈</a>
-            <a href="/list">리스트</a>
-            <a href="/info" class="active">정보</a>
-            <a href="/map">지도</a>
-            <a href="/review">후기</a>
-        </div>
-        <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
-    </nav>
 
-    <main class="container">
-        <section style="margin: 3rem 0 1rem;">
-            <h1>📍 진짜 정보</h1>
-            <p class="bro-voice">“쪽팔린 가이드북은 집에 처박아. 여기 종로, 진짜 펍의 주소와 번호를 알려준다. 전화 걸어서 직접 확인해라.”</p>
-        </section>
+<main>
+  <section class="container full-bleed">
+    <h1>종로 펍 가이드: 이용 안내</h1>
+    <p class="highlight">종로 지역에서 펍을 찾는 방문객을 위해 위치 정보, 연락 방법, 이용 시 참고 사항을 한 페이지에 정리했습니다.</p>
+    <p>종로는 오래된 골목과 새로 생긴 상권이 함께 어우러진 지역으로, 퇴근 후 모임 장소를 찾는 직장인과 관광객의 방문이 꾸준합니다. 지하철 1호선과 3호선, 5호선이 인접해 있어 대중교통으로 접근하기 편리하며, 저녁 시간대에는 유동 인구가 많아 도보 이동 시 골목 위치를 미리 확인해 두는 것이 좋습니다. 큰길에서 안쪽 골목으로 들어가는 구조가 많아 처음 방문할 때는 이정표가 되는 건물을 함께 기억해 두면 편리합니다.</p>
+  </section>
 
-        <section class="full-bleed">
-            <div class="container">
-                <h2>📞 전화 & 위치</h2>
-                <div class="grid-2">
-                    <div class="info-card">
-                        <h3>대표 연락처</h3>
-                        <p><span class="highlight">010-6279-0862</span> — 24시간 받는 놈 없음. 그래도 걸어라.</p>
-                        <p>영업시간: 18:00 ~ 새벽 03:00 (금토 05:00)</p>
-                        <p>주소: 종로구 돈화문로 11길 28-5, 지하 1층</p>
-                        <p>※ 네이버 지도에 '종로 쩌는 펍' 검색. 안 나오면 너가 병신.</p>
-                    </div>
-                    <div class="info-card">
-                        <h3>🚇 교통</h3>
-                        <p>종로3가역 9번 출구에서 도보 3분. 골목 안으로 쭉.</p>
-                        <p>주차? 니 차량이 무쏘나 타면 포기해라. 주변 유료주차장 (종로타워) 이용.</p>
-                        <p>대리비 1만원 지원 (2차 이상 방문 시) — 전화로 확인</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <section class="container grid-2">
+    <div class="info-card">
+      <h2>위치 및 연락처</h2>
+      <p>정확한 위치와 예약 가능 여부는 아래 번호로 문의할 수 있습니다.</p>
+      <a class="tel-link" href="tel:010-6279-0862">010-6279-0862</a>
+    </div>
+    <div class="info-card">
+      <h2>이용 시간 안내</h2>
+      <p>운영 시간은 요일에 따라 달라질 수 있으므로 방문 전 전화로 확인하는 것을 권장합니다. <span class="strike">문의 없이 방문</span>하기보다는 사전 연락 후 방문하면 대기 시간을 줄일 수 있습니다.</p>
+    </div>
+  </section>
 
-        <section style="margin-top: 2rem;">
-            <h2>🔞 종로펍 필수 룰</h2>
-            <div class="info-card">
-                <p>✔️ <strong>입장 나이</strong> — 1997년생까지 OK. 신분증 없으면 나가.</p>
-                <p>✔️ <strong>드레스 코드</strong> — 정장 씨발련아. 청바지+티셔츠 환영. 슬리퍼 금지.</p>
-                <p>✔️ <strong>흡연</strong> — 내부 금연. 옥상 발코니에서 펴라. 재털이 있음.</p>
-                <p>✔️ <strong>혼술 환영</strong> — 카운터석 8석. 외로운 놈들아 와라.</p>
-                <p class="strike">❌ 관광객용 칵테일바 — 집에 처 박아.</p>
-            </div>
-        </section>
+  <section class="container">
+    <h2>이용 절차</h2>
+    <p><span class="big-number">01</span> 전화로 희망 날짜와 인원을 안내합니다.</p>
+    <p><span class="big-number">02</span> 좌석 또는 룸 배정 가능 여부를 확인받습니다.</p>
+    <p><span class="big-number">03</span> 방문 후 안내에 따라 이용합니다.</p>
+  </section>
 
-        <section>
-            <h2>🍻 메뉴 & 가격 (가성비 끝판왕)</h2>
-            <div class="grid-2">
-                <div class="info-card">
-                    <h3>🍺 생맥주</h3>
-                    <p>에딩거 (500ml) — 5,500원</p>
-                    <p>호가든 (500ml) — 5,500원</p>
-                    <p>클라우드 (500ml) — 4,500원</p>
-                    <p>테라 (500ml) — 3,500원 (오후 9시 전 2,500원)</p>
-                    <p class="highlight">하이볼 4,000원 (위스키+탄산, 순한맛)</p>
-                </div>
-                <div class="info-card">
-                    <h3>🍗 안주 필수</h3>
-                    <p>땅콩+과자 — 무료 (리필 가능)</p>
-                    <p>바베큐 폭립 (반마리) — 12,000원</p>
-                    <p>매콤 떡볶이 — 6,000원 (신라면 사리 추가 1,000원)</p>
-                    <p>치즈 프라이 — 5,000원</p>
-                    <p>소시지 플레터 — 9,000원 (3종 소시지+피클)</p>
-                </div>
-            </div>
-        </section>
+  <section class="container">
+    <h2>용어 정리</h2>
+    <p><strong>기본 타임</strong> — 업소에서 기본으로 제공하는 이용 시간 단위를 말합니다.</p>
+    <p><strong>세트 구성</strong> — 주류와 안주가 함께 구성된 이용 단위를 말합니다.</p>
+    <p><strong>지정</strong> — 동석 인원을 특정해 요청하는 것을 말합니다.</p>
+  </section>
 
-        <section>
-            <h2>❓ 자주 묻는 개소리 (FAQ)</h2>
-            <div class="faq-item">
-                <div class="faq-q">“여기 분위기 어때요? 데이트하기 좋나요?”</div>
-                <p>데이트? 니 여친이 펍을 좋아하면 개쩔고, 아니면 집에 보내라. 조용한 분위기 원하면 옆에 스타벅스 가라. 여기는 시끄럽고 락 음악 틀어준다. 근데 술 맛은 진짜.</p>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">“주차 어디에 해요?”</div>
-                <p>니 차가 경차면 골목에 대라. 아니면 종로타워 주차장 (10분 1,000원). 밤 10시 이후엔 길가 주차 가능한데 단속 카메라 조심. 난 차 끌고 오지 마. 전철 타고 와.</p>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">“예약 가능해요?”</div>
-                <p>예약? 전화 010-6279-0862. 문자는 씹는다. 4인 이상만 예약 받고, 나머지는 워크인. 금요일 저녁은 7시 전에 와야 자리 있다. 안 오면 니 손해.</p>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">“여기 펍 맞아? 클럽 아니지?”</div>
-                <p>클럽? 여기는 펍이다. 댄스 플로어 없음. 대신 테이블에서 떠들고 술 퍼마시는 놈들 천지. 손님이 클럽으로 만들면 어쩔 수 없지만 기본은 펍. 조용히 술 마시고 싶으면 집에 가.</p>
-            </div>
-        </section>
+  <section class="container bro-voice">
+    <h2>참고 사항</h2>
+    <p>초행길이라면 도로명 주소와 인근 건물 이름을 함께 메모해 두면 도움이 됩니다. 골목이 복잡한 구간은 큰 도로에서부터 도보로 안내받는 것이 빠르며, 밤 시간대에는 조명이 밝은 큰길을 따라 이동하는 편이 길을 찾기 수월합니다.</p>
+  </section>
 
-        <hr>
+  <section class="container">
+    <h2>미리 확인하면 좋은 질문</h2>
+    <div class="faq-item open">
+      <div class="faq-q">예약 없이 방문해도 되나요?</div>
+      <div>가능한 경우도 있지만, 대기 시간을 줄이려면 사전 전화 문의를 권장합니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">단체 인원도 이용할 수 있나요?</div>
+      <div>인원 규모에 따라 안내가 달라지므로 방문 전 인원수를 알려주는 것이 좋습니다.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">주차는 어디에 하나요?</div>
+      <div>업소 주변 공영주차장 또는 인근 유료주차장 이용 여부를 전화로 확인할 수 있습니다.</div>
+    </div>
+  </section>
+</main>
 
-        <section>
-            <h2>🗺️ 지역 시그널 — 종로 3가</h2>
-            <div class="info-card" style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center;">
-                <div style="flex:2; min-width: 240px;">
-                    <p><span class="big-number">010-6279-0862</span> — 전화하면 형이 받는다.</p>
-                    <p>종로3가역 9번 출구 → 골목으로 50m → 빨간 간판 '종로펍'</p>
-                    <p>주변에 맛집: <span class="highlight">돈까스 클럽</span> (200m) / <span class="highlight">종로 추어탕</span> (300m) — 술 깨기 좋음</p>
-                    <p>펍 옆에 편의점 있음. 담배, 아이스크림, 술 더 사서 들어와도 OK. 단, 자리에서 시킨 술도 먹어야 함.</p>
-                </div>
-                <div style="flex:1; background: #2a2a2a; padding: 1rem; text-align: center; border: 2px solid #f5e72b;">
-                    <p style="font-size: 1.8rem;">🚶 <strong>도보 3분</strong></p
+
 </body>
 </html>
